@@ -1,0 +1,12 @@
+*.pyc
+*.log
+*.aux
+*.db
+*.gz
+
+
+AI2 Project/img/Thumbs.db
+AI2 Project/__pycache__/Cards.cpython-34.pyc
+*.bbl
+*.blg
+*.pyc

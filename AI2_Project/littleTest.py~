@@ -1,0 +1,127 @@
+import Player as P
+import PlayerType as PT
+from BullshitGame import *
+<<<<<<< HEAD
+i = .1
+maxWins = 0
+while i <= 1:
+	DavisWins = 0
+	MarlWins = 0
+	SvenWins = 0
+	JorgeWins = 0
+	JesusWins = 0
+	JimWins = 0
+	TerminatorWins = 0
+	ter_num_won_BS = 0
+	ter_num_lost_BS = 0
+
+
+	for x in range(500):
+		player_list = []
+		
+		thisPlayer = P.Player("Davis", PT.Eel(random.uniform(0.1,0.1)))
+		player_list.append(thisPlayer)
+		thisPlayer = P.Player("Marl", PT.Eel(random.uniform(.1, 0.1)))
+		player_list.append(thisPlayer)
+		thisPlayer = P.Player("Sven", PT.Eel(random.uniform(.1,.1 )))
+		player_list.append(thisPlayer)
+		thisPlayer = P.Player("Jorge", PT.Eel(random.uniform(0.1,0.1)))
+		player_list.append(thisPlayer)
+		thisPlayer = P.Player("Terminator", PT.Owl(i, 0.02))
+		player_list.append(thisPlayer)
+		game = Bullshit_Game(player_list)
+		if len(sys.argv) > 1:
+			game.verbose = True
+			for player in player_list:
+				player.verbose = True
+		game.deal_game()
+		#Initialize tracker of player moves and evidence for AI agents to use:
+		for player in player_list:
+			tracker = PlayerTracker(player.name, len(player.hand.cards))
+			game.players_tracker[player.name] = tracker
+=======
+
+fd = open('log2.txt','w')
+j = 0.16
+maxWins = 0
+for kk in range (0,51,10):
+	for ii in range(90,101):
+		i = ii / 100.0
+		k = kk / 1000.0
+		DavisWins = 0
+		MarlWins = 0
+		SvenWins = 0
+		JorgeWins = 0
+		JesusWins = 0
+		JimWins = 0
+		TerminatorWins = 0
+		ter_num_won_BS = 0
+		ter_num_lost_BS = 0
+
+
+		for x in range(500):
+			player_list = []
+
+			
+			thisPlayer = P.Player("Davis", PT.Eel(j))
+			player_list.append(thisPlayer)
+			thisPlayer = P.Player("Marl", PT.Eel(j))
+			player_list.append(thisPlayer)
+			thisPlayer = P.Player("Sven", PT.Eel(j))
+			player_list.append(thisPlayer)
+			thisPlayer = P.Player("Jorge", PT.Eel(j))
+			player_list.append(thisPlayer)
+			thisPlayer = P.Player("Terminator", PT.Lynx(j,i,k,"Terminator"))
+			player_list.append(thisPlayer)
+			game = Bullshit_Game(player_list)
+			if len(sys.argv) > 1:
+				game.verbose = True
+				for player in player_list:
+					player.verbose = True
+			random.shuffle(player_list)
+			game.deal_game()
+>>>>>>> cdb0f20cea94c56e7092f7ee99d680c2d6894b6c
+
+			#Initialize tracker of player moves and evidence for AI agents to use:
+			for player in player_list:
+				tracker = PlayerTracker(player.name, len(player.hand.cards))
+				#tracker.probability_given_card = tracker.num_cards/52.0
+				game.players_tracker[player.name] = tracker
+				#print ("Player " + player.name + " has " +str(tracker.num_cards) + " cards")
+				
+
+<<<<<<< HEAD
+	print("Current value of upper bound is: ", str(i))
+	print("Number of wins for this value out of a 500:", TerminatorWins)
+	if TerminatorWins > maxWins:
+		maxI = i
+		maxWins = TerminatorWins
+
+	i += .05
+=======
+			winner = game.play_game()
+			if winner == "Davis":
+				DavisWins += 1
+			if winner == "Marl":
+				MarlWins += 1
+			if winner == "Sven":
+				SvenWins += 1
+			if winner == "Jorge":
+				JorgeWins += 1
+			if winner == "Terminator":
+				TerminatorWins+=1
+
+			ter_num_won_BS += game.players_tracker["Terminator"].num_won_BS
+			ter_num_lost_BS += game.players_tracker["Terminator"].num_lost_BS
+
+		
+		stringy = (str(i)+","+str(k)+","+str(TerminatorWins)+","+str(ter_num_won_BS)+","+str(ter_num_lost_BS)+"\n")
+		fd.write(stringy)
+		if TerminatorWins > maxWins:
+			maxI = i
+			maxWins = TerminatorWins
+
+>>>>>>> cdb0f20cea94c56e7092f7ee99d680c2d6894b6c
+
+	#print("best vale for upper bound in probability is: ", str(maxI))
+	#print("max number of wins: ", str(maxWins))

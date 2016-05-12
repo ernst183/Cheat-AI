@@ -1,0 +1,795 @@
+<<<<<<< HEAD
+It is currently Davis's turn and the card needed is: Ace
+Davis has 11 cards in hand
+#####
+probability of move just made is:  0.4331332533013206
+num cards played: 1
+hand size:  11
+Player Jorge just called BS!
+Davis was telling the truth, Jorge must pick up
+
+It is currently Terminator's turn and the card needed is: Two
+Terminator has 11 cards in hand
+#####
+probability of move just made is:  0.16658971280820023
+num cards played: 2
+hand size:  11
+It is currently Sven's turn and the card needed is: Three
+Sven has 10 cards in hand
+#####
+probability of move just made is:  0.42404654169360056
+num cards played: 1
+hand size:  10
+probability:  0.42404654169360056
+number cards in hand:  10
+It is currently Jorge's turn and the card needed is: Four
+Jorge has 11 cards in hand
+#####
+probability of move just made is:  0.4331332533013206
+num cards played: 1
+hand size:  11
+probability:  0.4331332533013206
+number cards in hand:  11
+Player Sven just called BS!
+Jorge was lying, Jorge must pick up
+
+It is currently Marl's turn and the card needed is: Five
+Marl has 10 cards in hand
+#####
+probability of move just made is:  0.42404654169360056
+num cards played: 1
+hand size:  10
+probability:  0.42404654169360056
+number cards in hand:  10
+It is currently Davis's turn and the card needed is: Six
+Davis has 10 cards in hand
+#####
+probability of move just made is:  0.42404654169360056
+num cards played: 1
+hand size:  10
+Player Marl just called BS!
+Davis was telling the truth, Marl must pick up
+
+It is currently Terminator's turn and the card needed is: Seven
+Terminator has 9 cards in hand
+#####
+probability of move just made is:  0.12007756948933418
+num cards played: 2
+hand size:  9
+Player Jorge just called BS!
+Terminator was telling the truth, Jorge must pick up
+
+It is currently Sven's turn and the card needed is: Eight
+Sven has 9 cards in hand
+#####
+probability of move just made is:  0.41026502908855844
+num cards played: 1
+hand size:  9
+probability:  0.41026502908855844
+number cards in hand:  9
+Player Jorge just called BS!
+Sven was telling the truth, Jorge must pick up
+
+It is currently Jorge's turn and the card needed is: Nine
+Jorge has 17 cards in hand
+#####
+probability of move just made is:  0.4109890109890111
+num cards played: 1
+hand size:  17
+probability:  0.4109890109890111
+number cards in hand:  17
+It is currently Marl's turn and the card needed is: Ten
+Marl has 11 cards in hand
+#####
+probability of move just made is:  0.4331332533013206
+num cards played: 1
+hand size:  11
+probability:  0.4331332533013206
+number cards in hand:  11
+It is currently Davis's turn and the card needed is: Jack
+Davis has 9 cards in hand
+#####
+probability of move just made is:  0.12007756948933418
+num cards played: 2
+hand size:  9
+probability:  0.12007756948933418
+number cards in hand:  9
+Player Terminator just called BS!
+Davis was lying, Davis must pick up
+
+It is currently Terminator's turn and the card needed is: Queen
+Terminator has 7 cards in hand
+#####
+probability of move just made is:  0.36690368455074335
+num cards played: 1
+hand size:  7
+Player Sven just called BS!
+Terminator was lying, Terminator must pick up
+
+It is currently Sven's turn and the card needed is: King
+Sven has 8 cards in hand
+#####
+probability of move just made is:  0.0978409825468649
+num cards played: 2
+hand size:  8
+Player Marl just called BS!
+Sven was lying, Sven must pick up
+
+It is currently Marl's turn and the card needed is: Ace
+Marl has 10 cards in hand
+#####
+probability of move just made is:  0.42404654169360056
+num cards played: 1
+hand size:  10
+probability:  0.42404654169360056
+number cards in hand:  10
+It is currently Davis's turn and the card needed is: Two
+Davis has 11 cards in hand
+#####
+probability of move just made is:  0.4331332533013206
+num cards played: 1
+hand size:  11
+Player Jorge just called BS!
+Davis was telling the truth, Jorge must pick up
+
+It is currently Terminator's turn and the card needed is: Three
+Terminator has 7 cards in hand
+#####
+probability of move just made is:  0.36690368455074335
+num cards played: 1
+hand size:  7
+Player Marl just called BS!
+Terminator was lying, Terminator must pick up
+
+It is currently Sven's turn and the card needed is: Four
+Sven has 8 cards in hand
+#####
+probability of move just made is:  0.3913639301874596
+num cards played: 1
+hand size:  8
+probability:  0.3913639301874596
+number cards in hand:  8
+Player Davis just called BS!
+Sven was telling the truth, Davis must pick up
+
+It is currently Jorge's turn and the card needed is: Five
+Jorge has 18 cards in hand
+#####
+probability of move just made is:  0.3978649921507064
+num cards played: 1
+hand size:  18
+probability:  0.3978649921507064
+number cards in hand:  18
+It is currently Marl's turn and the card needed is: Six
+Marl has 9 cards in hand
+#####
+probability of move just made is:  0.41026502908855844
+num cards played: 1
+hand size:  9
+probability:  0.41026502908855844
+number cards in hand:  9
+It is currently Davis's turn and the card needed is: Seven
+Davis has 11 cards in hand
+#####
+probability of move just made is:  0.4331332533013206
+num cards played: 1
+hand size:  11
+probability:  0.4331332533013206
+number cards in hand:  11
+Player Marl just called BS!
+Davis was telling the truth, Marl must pick up
+
+It is currently Terminator's turn and the card needed is: Eight
+Terminator has 7 cards in hand
+#####
+probability of move just made is:  0.36690368455074335
+num cards played: 1
+hand size:  7
+It is currently Sven's turn and the card needed is: Nine
+Sven has 7 cards in hand
+#####
+probability of move just made is:  0.36690368455074335
+num cards played: 1
+hand size:  7
+probability:  0.36690368455074335
+number cards in hand:  7
+Player Marl just called BS!
+Sven was telling the truth, Marl must pick up
+
+It is currently Jorge's turn and the card needed is: Ten
+Jorge has 17 cards in hand
+#####
+probability of move just made is:  0.4109890109890111
+num cards played: 1
+hand size:  17
+probability:  0.4109890109890111
+number cards in hand:  17
+It is currently Marl's turn and the card needed is: Jack
+Marl has 13 cards in hand
+#####
+probability of move just made is:  0.43884753901560614
+num cards played: 1
+hand size:  13
+probability:  0.43884753901560614
+number cards in hand:  13
+Player Jorge just called BS!
+Marl was telling the truth, Jorge must pick up
+
+It is currently Davis's turn and the card needed is: Queen
+Davis has 10 cards in hand
+#####
+probability of move just made is:  0.42404654169360056
+num cards played: 1
+hand size:  10
+probability:  0.42404654169360056
+number cards in hand:  10
+It is currently Terminator's turn and the card needed is: King
+Terminator has 6 cards in hand
+#####
+probability of move just made is:  0.3364299565980238
+num cards played: 1
+hand size:  6
+Player Jorge just called BS!
+Terminator was telling the truth, Jorge must pick up
+
+It is currently Jorge's turn and the card needed is: Ace
+Jorge has 20 cards in hand
+#####
+probability of move just made is:  0.348102317850217
+num cards played: 2
+hand size:  20
+probability:  0.348102317850217
+number cards in hand:  20
+It is currently Marl's turn and the card needed is: Two
+Marl has 12 cards in hand
+#####
+probability of move just made is:  0.4379351740696278
+num cards played: 1
+hand size:  12
+Player Sven just called BS!
+Marl was telling the truth, Sven must pick up
+
+It is currently Davis's turn and the card needed is: Three
+Davis has 9 cards in hand
+#####
+probability of move just made is:  0.013341952165481575
+num cards played: 3
+hand size:  9
+Player Marl just called BS!
+Davis was lying, Davis must pick up
+
+It is currently Terminator's turn and the card needed is: Four
+Terminator has 5 cards in hand
+#####
+probability of move just made is:  0.2994736356080894
+num cards played: 1
+hand size:  5
+Player Jorge just called BS!
+Terminator was telling the truth, Jorge must pick up
+
+It is currently Sven's turn and the card needed is: Five
+Sven has 9 cards in hand
+#####
+probability of move just made is:  0.41026502908855844
+num cards played: 1
+hand size:  9
+Player Jorge just called BS!
+Sven was telling the truth, Jorge must pick up
+
+It is currently Jorge's turn and the card needed is: Six
+Jorge has 20 cards in hand
+#####
+probability of move just made is:  0.36642349247391265
+num cards played: 1
+hand size:  20
+probability:  0.36642349247391265
+number cards in hand:  20
+It is currently Marl's turn and the card needed is: Seven
+Marl has 11 cards in hand
+#####
+probability of move just made is:  0.4331332533013206
+num cards played: 1
+hand size:  11
+probability:  0.4331332533013206
+number cards in hand:  11
+It is currently Davis's turn and the card needed is: Eight
+Davis has 9 cards in hand
+#####
+probability of move just made is:  0.41026502908855844
+num cards played: 1
+hand size:  9
+Player Marl just called BS!
+Davis was telling the truth, Marl must pick up
+
+It is currently Terminator's turn and the card needed is: Nine
+Terminator has 4 cards in hand
+#####
+probability of move just made is:  0.25555083571890297
+num cards played: 1
+hand size:  4
+It is currently Sven's turn and the card needed is: Ten
+Sven has 8 cards in hand
+#####
+probability of move just made is:  0.3913639301874596
+num cards played: 1
+hand size:  8
+Player Marl just called BS!
+Sven was telling the truth, Marl must pick up
+
+It is currently Jorge's turn and the card needed is: Jack
+Jorge has 19 cards in hand
+#####
+probability of move just made is:  0.38291254963523863
+num cards played: 1
+hand size:  19
+probability:  0.38291254963523863
+number cards in hand:  19
+It is currently Marl's turn and the card needed is: Queen
+Marl has 15 cards in hand
+#####
+probability of move just made is:  0.4305106658047835
+num cards played: 1
+hand size:  15
+probability:  0.4305106658047835
+number cards in hand:  15
+Player Sven just called BS!
+Marl was telling the truth, Sven must pick up
+
+It is currently Davis's turn and the card needed is: King
+Davis has 8 cards in hand
+#####
+probability of move just made is:  0.0978409825468649
+num cards played: 2
+hand size:  8
+Player Jorge just called BS!
+Davis was telling the truth, Jorge must pick up
+
+It is currently Sven's turn and the card needed is: Ace
+Sven has 9 cards in hand
+#####
+probability of move just made is:  0.12007756948933418
+num cards played: 2
+hand size:  9
+probability:  0.12007756948933418
+number cards in hand:  9
+Player Terminator just called BS!
+Sven was telling the truth, Terminator must pick up
+
+It is currently Jorge's turn and the card needed is: Two
+Jorge has 20 cards in hand
+#####
+probability of move just made is:  0.13474928432911626
+num cards played: 3
+hand size:  20
+probability:  0.13474928432911626
+number cards in hand:  20
+Player Terminator just called BS!
+Jorge was telling the truth, Terminator must pick up
+
+It is currently Marl's turn and the card needed is: Three
+Marl has 14 cards in hand
+#####
+probability of move just made is:  0.2363025210084033
+num cards played: 2
+hand size:  14
+probability:  0.2363025210084033
+number cards in hand:  14
+Player Jorge just called BS!
+Marl was telling the truth, Jorge must pick up
+
+It is currently Davis's turn and the card needed is: Four
+Davis has 6 cards in hand
+#####
+probability of move just made is:  0.057346015329208605
+num cards played: 2
+hand size:  6
+Player Jorge just called BS!
+Davis was telling the truth, Jorge must pick up
+
+It is currently Terminator's turn and the card needed is: Five
+Terminator has 8 cards in hand
+#####
+probability of move just made is:  0.3913639301874596
+num cards played: 1
+hand size:  8
+Player Marl just called BS!
+Terminator was lying, Terminator must pick up
+
+It is currently Sven's turn and the card needed is: Six
+Sven has 7 cards in hand
+#####
+probability of move just made is:  0.0058177117000646405
+num cards played: 3
+hand size:  7
+probability:  0.0058177117000646405
+number cards in hand:  7
+Player Terminator just called BS!
+Sven was telling the truth, Terminator must pick up
+
+It is currently Jorge's turn and the card needed is: Seven
+Jorge has 21 cards in hand
+#####
+probability of move just made is:  0.15229476405946993
+num cards played: 3
+hand size:  21
+Player Marl just called BS!
+Jorge was telling the truth, Marl must pick up
+
+It is currently Marl's turn and the card needed is: Eight
+Marl has 15 cards in hand
+#####
+probability of move just made is:  0.4305106658047835
+num cards played: 1
+hand size:  15
+Player Jorge just called BS!
+Marl was telling the truth, Jorge must pick up
+
+It is currently Davis's turn and the card needed is: Nine
+Davis has 4 cards in hand
+#####
+probability of move just made is:  0.25555083571890297
+num cards played: 1
+hand size:  4
+probability:  0.25555083571890297
+number cards in hand:  4
+Player Marl just called BS!
+Davis was telling the truth, Marl must pick up
+
+It is currently Terminator's turn and the card needed is: Ten
+Terminator has 11 cards in hand
+#####
+probability of move just made is:  0.4331332533013206
+num cards played: 1
+hand size:  11
+Player Jorge just called BS!
+Terminator was lying, Terminator must pick up
+
+It is currently Sven's turn and the card needed is: Jack
+Sven has 4 cards in hand
+#####
+probability of move just made is:  0.0249995382768492
+num cards played: 2
+hand size:  4
+probability:  0.0249995382768492
+number cards in hand:  4
+Player Terminator just called BS!
+Sven was telling the truth, Terminator must pick up
+
+It is currently Jorge's turn and the card needed is: Queen
+Jorge has 19 cards in hand
+#####
+probability of move just made is:  0.11811616954474095
+num cards played: 3
+hand size:  19
+probability:  0.11811616954474095
+number cards in hand:  19
+Player Terminator just called BS!
+Jorge was telling the truth, Terminator must pick up
+
+It is currently Marl's turn and the card needed is: King
+Marl has 15 cards in hand
+#####
+probability of move just made is:  0.4305106658047835
+num cards played: 1
+hand size:  15
+probability:  0.4305106658047835
+number cards in hand:  15
+Player Jorge just called BS!
+Marl was lying, Marl must pick up
+
+It is currently Terminator's turn and the card needed is: Ace
+Terminator has 16 cards in hand
+#####
+probability of move just made is:  0.07446670976082741
+num cards played: 3
+hand size:  16
+Player Davis just called BS!
+Terminator was telling the truth, Davis must pick up
+
+It is currently Sven's turn and the card needed is: Two
+Sven has 2 cards in hand
+#####
+probability of move just made is:  0.14479638009049775
+num cards played: 1
+hand size:  2
+probability:  0.14479638009049775
+number cards in hand:  2
+Player Terminator just called BS!
+Sven was telling the truth, Terminator must pick up
+
+It is currently Jorge's turn and the card needed is: Three
+Jorge has 16 cards in hand
+#####
+probability of move just made is:  0.006722689075630252
+num cards played: 4
+hand size:  16
+probability:  0.006722689075630252
+number cards in hand:  16
+Player Terminator just called BS!
+Jorge was telling the truth, Terminator must pick up
+
+It is currently Marl's turn and the card needed is: Four
+Marl has 15 cards in hand
+#####
+probability of move just made is:  0.4305106658047835
+num cards played: 1
+hand size:  15
+Player Sven just called BS!
+Marl was telling the truth, Sven must pick up
+
+It is currently Davis's turn and the card needed is: Five
+Davis has 6 cards in hand
+#####
+probability of move just made is:  0.3364299565980238
+num cards played: 1
+hand size:  6
+probability:  0.3364299565980238
+number cards in hand:  6
+It is currently Terminator's turn and the card needed is: Six
+Terminator has 18 cards in hand
+#####
+probability of move just made is:  0.10248037676609105
+num cards played: 3
+hand size:  18
+It is currently Sven's turn and the card needed is: Seven
+Sven has 2 cards in hand
+#####
+probability of move just made is:  0.14479638009049775
+num cards played: 1
+hand size:  2
+probability:  0.14479638009049775
+number cards in hand:  2
+Player Terminator just called BS!
+Sven was lying, Sven must pick up
+
+It is currently Jorge's turn and the card needed is: Eight
+Jorge has 12 cards in hand
+#####
+probability of move just made is:  0.0018284236771631728
+num cards played: 4
+hand size:  12
+probability:  0.0018284236771631728
+number cards in hand:  12
+Player Terminator just called BS!
+Jorge was telling the truth, Terminator must pick up
+
+It is currently Marl's turn and the card needed is: Nine
+Marl has 14 cards in hand
+#####
+probability of move just made is:  0.0036974789915966387
+num cards played: 4
+hand size:  14
+Player Jorge just called BS!
+Marl was telling the truth, Jorge must pick up
+
+It is currently Davis's turn and the card needed is: Ten
+Davis has 5 cards in hand
+#####
+probability of move just made is:  0.03992981808107859
+num cards played: 2
+hand size:  5
+probability:  0.03992981808107859
+number cards in hand:  5
+Player Terminator just called BS!
+Davis was telling the truth, Terminator must pick up
+
+It is currently Terminator's turn and the card needed is: Jack
+Terminator has 21 cards in hand
+#####
+probability of move just made is:  0.022107304460245638
+num cards played: 4
+hand size:  21
+Player Davis just called BS!
+Terminator was telling the truth, Davis must pick up
+
+It is currently Sven's turn and the card needed is: Queen
+Sven has 6 cards in hand
+#####
+probability of move just made is:  0.3364299565980238
+num cards played: 1
+hand size:  6
+Player Marl just called BS!
+Sven was telling the truth, Marl must pick up
+
+It is currently Jorge's turn and the card needed is: King
+Jorge has 12 cards in hand
+#####
+probability of move just made is:  0.0018284236771631728
+num cards played: 4
+hand size:  12
+Player Marl just called BS!
+Jorge was telling the truth, Marl must pick up
+
+It is currently Davis's turn and the card needed is: Ace
+Davis has 7 cards in hand
+#####
+probability of move just made is:  0.0058177117000646405
+num cards played: 3
+hand size:  7
+probability:  0.0058177117000646405
+number cards in hand:  7
+Player Terminator just called BS!
+Davis was telling the truth, Terminator must pick up
+
+It is currently Terminator's turn and the card needed is: Two
+Terminator has 20 cards in hand
+#####
+probability of move just made is:  0.017896389324960755
+num cards played: 4
+hand size:  20
+Player Marl just called BS!
+Terminator was telling the truth, Marl must pick up
+
+It is currently Sven's turn and the card needed is: Three
+Sven has 5 cards in hand
+#####
+probability of move just made is:  0.03992981808107859
+num cards played: 2
+hand size:  5
+Player Jorge just called BS!
+Sven was lying, Sven must pick up
+
+It is currently Jorge's turn and the card needed is: Four
+Jorge has 8 cards in hand
+#####
+probability of move just made is:  0.009101486748545572
+num cards played: 3
+hand size:  8
+probability:  0.009101486748545572
+number cards in hand:  8
+Player Terminator just called BS!
+Jorge was telling the truth, Terminator must pick up
+
+It is currently Marl's turn and the card needed is: Five
+Marl has 19 cards in hand
+#####
+probability of move just made is:  0.11811616954474095
+num cards played: 3
+hand size:  19
+Player Jorge just called BS!
+Marl was telling the truth, Jorge must pick up
+
+It is currently Davis's turn and the card needed is: Six
+Davis has 4 cards in hand
+#####
+probability of move just made is:  0.25555083571890297
+num cards played: 1
+hand size:  4
+probability:  0.25555083571890297
+number cards in hand:  4
+It is currently Terminator's turn and the card needed is: Seven
+Terminator has 19 cards in hand
+#####
+probability of move just made is:  0.38291254963523863
+num cards played: 1
+hand size:  19
+Player Marl just called BS!
+Terminator was lying, Terminator must pick up
+
+It is currently Sven's turn and the card needed is: Eight
+Sven has 5 cards in hand
+#####
+probability of move just made is:  0.03992981808107859
+num cards played: 2
+hand size:  5
+Player Jorge just called BS!
+Sven was lying, Sven must pick up
+
+It is currently Jorge's turn and the card needed is: Nine
+Jorge has 8 cards in hand
+#####
+probability of move just made is:  0.0002585649644473174
+num cards played: 4
+hand size:  8
+probability:  0.0002585649644473174
+number cards in hand:  8
+Player Terminator just called BS!
+Jorge was telling the truth, Terminator must pick up
+
+It is currently Marl's turn and the card needed is: Ten
+Marl has 16 cards in hand
+#####
+probability of move just made is:  0.42197802197802203
+num cards played: 1
+hand size:  16
+Player Sven just called BS!
+Marl was telling the truth, Sven must pick up
+
+It is currently Davis's turn and the card needed is: Jack
+Davis has 3 cards in hand
+#####
+probability of move just made is:  0.00018099547511312214
+num cards played: 3
+hand size:  3
+Player Jorge just called BS!
+Davis was telling the truth, Jorge must pick up
+
+Davis WINS!!
+Terminator statistics for calling BS:
+	Won BS challenges: 2
+	Lost BS challenges: 12
+Davis statistics for calling BS:
+	Won BS challenges: 0
+	Lost BS challenges: 3
+Sven statistics for calling BS:
+	Won BS challenges: 2
+	Lost BS challenges: 4
+Marl statistics for calling BS:
+	Won BS challenges: 5
+	Lost BS challenges: 10
+Jorge statistics for calling BS:
+	Won BS challenges: 4
+	Lost BS challenges: 15
+0
+1
+0
+0
+0
+=======
+0.9,0.0,132,2051,1750
+0.91,0.0,132,2080,1682
+0.92,0.0,130,2009,1652
+0.93,0.0,135,1861,1610
+0.94,0.0,134,1791,1618
+0.95,0.0,133,2021,1712
+0.96,0.0,149,1859,1576
+0.97,0.0,159,1937,1683
+0.98,0.0,129,1860,1522
+0.99,0.0,127,1823,1614
+1.0,0.0,142,1911,1698
+0.9,0.01,141,1870,1603
+0.91,0.01,133,1859,1630
+0.92,0.01,145,1878,1627
+0.93,0.01,146,1950,1624
+0.94,0.01,138,1815,1600
+0.95,0.01,144,1958,1636
+0.96,0.01,138,1964,1591
+0.97,0.01,145,1935,1587
+0.98,0.01,143,1839,1590
+0.99,0.01,130,1803,1576
+1.0,0.01,147,1834,1602
+0.9,0.02,124,1888,1538
+0.91,0.02,128,1800,1509
+0.92,0.02,136,2012,1632
+0.93,0.02,133,1966,1664
+0.94,0.02,116,1983,1686
+0.95,0.02,126,1978,1669
+0.96,0.02,119,2102,1683
+0.97,0.02,144,1831,1598
+0.98,0.02,129,1910,1610
+0.99,0.02,125,2078,1657
+1.0,0.02,113,1965,1666
+0.9,0.03,115,1895,1564
+0.91,0.03,116,2000,1553
+0.92,0.03,97,2091,1602
+0.93,0.03,109,2090,1687
+0.94,0.03,126,1979,1619
+0.95,0.03,120,1809,1544
+0.96,0.03,138,1850,1596
+0.97,0.03,136,2062,1680
+0.98,0.03,121,1942,1641
+0.99,0.03,126,1958,1667
+1.0,0.03,147,1939,1623
+0.9,0.04,103,1961,1553
+0.91,0.04,108,1956,1595
+0.92,0.04,125,1862,1514
+0.93,0.04,115,1954,1627
+0.94,0.04,117,2003,1601
+0.95,0.04,110,2131,1606
+0.96,0.04,107,1981,1648
+0.97,0.04,97,1903,1564
+0.98,0.04,103,2082,1672
+0.99,0.04,97,2003,1668
+1.0,0.04,96,1972,1658
+0.9,0.05,107,1994,1558
+0.91,0.05,85,1881,1667
+0.92,0.05,89,1984,1645
+0.93,0.05,108,1801,1575
+0.94,0.05,103,1912,1524
+0.95,0.05,101,1979,1546
+0.96,0.05,104,2056,1596
+0.97,0.05,99,1972,1593
+0.98,0.05,113,1967,1660
+0.99,0.05,103,1920,1576
+1.0,0.05,115,2017,1618
+>>>>>>> cdb0f20cea94c56e7092f7ee99d680c2d6894b6c

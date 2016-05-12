@@ -1,0 +1,19 @@
+Fish = csvread('owl_vs_fish.txt');
+for i=1:200
+    Fish(i,4)=Fish(i,4)/(Fish(i,4)+Fish(i,5));
+end
+Frog = csvread('owl_vs_frog.txt');
+for i=1:200
+    Frog (i,4)=Frog (i,4)/(Frog (i,4)+Frog (i,5));
+end
+Eel = csvread('owl_vs_eel.txt');
+for i=1:200
+    Eel(i,4)=Eel(i,4)/(Eel(i,4)+Eel(i,5));
+end
+Sala = csvread('owl_vs_salamander.txt');
+for i=1:200
+    Fish(i,4)=Fish(i,4)/(Fish(i,4)+Fish(i,5));
+end
+
+
+

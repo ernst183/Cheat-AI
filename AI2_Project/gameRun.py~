@@ -1,0 +1,114 @@
+import Player as P
+import PlayerType as PT
+from BullshitGame import *
+import random
+
+DavisWins = 0
+dav_num_won_BS = 0
+dav_num_lost_BS = 0
+MarlWins = 0
+mar_num_won_BS = 0
+mar_num_lost_BS = 0
+SvenWins = 0
+sven_num_won_BS = 0
+sven_num_lost_BS = 0
+JorgeWins = 0
+jor_num_won_BS = 0
+jor_num_lost_BS = 0
+JesusWins = 0
+JimWins = 0
+TerminatorWins = 0
+ter_num_won_BS = 0
+ter_num_lost_BS = 0
+
+frogs = .7;
+for x in range(5000):
+	player_list = []
+
+	
+	thisPlayer = P.Player("Davis", PT.Frog(random.uniform(.05,.5)))
+	player_list.append(thisPlayer)
+	thisPlayer = P.Player("Marl", PT.Fish(random.uniform(.05,.5)))
+	player_list.append(thisPlayer)
+	thisPlayer = P.Player("Sven", PT.Salamander())
+	player_list.append(thisPlayer)	
+	thisPlayer = P.Player("Jorge", PT.Eel(random.uniform(.05,.5)))
+	#thisPlayer = P.Player("Terminator", PT.Fish(0.2))
+	player_list.append(thisPlayer)
+	thisPlayer = P.Player("Terminator", PT.Dolphin(1,0.01,0.98,0.02,"Terminator"))
+	#thisPlayer = P.Player("Terminator", PT.Owl(1,.01))
+	player_list.append(thisPlayer)
+	random.shuffle(player_list)
+	game = Bullshit_Game(player_list)
+	if len(sys.argv) > 1:
+		game.verbose = True
+		for player in player_list:
+			player.verbose = True
+	game.deal_game()
+	numDecks = 1
+	#Initialize tracker of player moves and evidence for AI agents to use:
+	for player in player_list:
+		tracker = PlayerTracker(player.name, len(player.hand.cards))
+		tracker.probability_given_card = tracker.num_cards/52.0*numDecks
+		game.players_tracker[player.name] = tracker
+		for adversary in player_list:
+			if player != adversary:
+				game.players_tracker[player.name].player_map[adversary] = [-1,0,0,0,0,0,0,0,0,0,0,0,0,0]
+		#print ("Player " + player.name + " has " +str(tracker.num_cards) + " cards")
+		
+
+	winner = game.play_game()
+	if winner == "Davis":
+		DavisWins += 1
+	if winner == "Marl":
+		MarlWins += 1
+	if winner == "Sven":
+		SvenWins += 1
+	if winner == "Jorge":
+		JorgeWins += 1
+	if winner == "Terminator":
+		TerminatorWins+=1
+	ter_num_won_BS += game.players_tracker["Terminator"].num_won_BS
+	ter_num_lost_BS += game.players_tracker["Terminator"].num_lost_BS
+
+	dav_num_won_BS += game.players_tracker["Davis"].num_won_BS
+	dav_num_lost_BS += game.players_tracker["Davis"].num_lost_BS
+
+	sven_num_won_BS += game.players_tracker["Sven"].num_won_BS
+	sven_num_lost_BS += game.players_tracker["Sven"].num_lost_BS
+
+	mar_num_won_BS += game.players_tracker["Marl"].num_won_BS
+	mar_num_lost_BS += game.players_tracker["Marl"].num_lost_BS
+
+	jor_num_won_BS += game.players_tracker["Jorge"].num_won_BS
+	jor_num_lost_BS += game.players_tracker["Jorge"].num_lost_BS
+
+
+
+print("Terminator statistics for calling BS:")
+print("\tWon BS challenges: " + str(ter_num_won_BS))
+print("\tLost BS challenges: " + str(ter_num_lost_BS))
+
+print("Davis statistics for calling BS:")
+print("\tWon BS challenges: " + str(dav_num_won_BS))
+print("\tLost BS challenges: " + str(dav_num_lost_BS))
+
+print("Sven statistics for calling BS:")
+print("\tWon BS challenges: " + str(sven_num_won_BS))
+print("\tLost BS challenges: " + str(sven_num_lost_BS))
+
+print("Marl statistics for calling BS:")
+print("\tWon BS challenges: " + str(mar_num_won_BS))
+print("\tLost BS challenges: " + str(mar_num_lost_BS))
+
+print("Jorge statistics for calling BS:")
+print("\tWon BS challenges: " + str(jor_num_won_BS))
+print("\tLost BS challenges: " + str(jor_num_lost_BS))
+
+
+print(TerminatorWins)
+print(DavisWins)
+print(MarlWins)
+print(SvenWins)
+print(JorgeWins)
+
